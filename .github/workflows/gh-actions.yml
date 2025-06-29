@@ -1,6 +1,6 @@
 name: JerryScript CI
 
-on: [push, pull_request]
+on: [push, pull_request, workflow_dispatch]
 
 env:
   RUNNER: tools/run-tests.py
